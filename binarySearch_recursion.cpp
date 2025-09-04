@@ -21,7 +21,6 @@ bool binarySearch(int *arr, int s, int e, int k) {
     if(arr[mid] > k) {
         return binarySearch(arr, s, mid-1, k);
     } 
-    
 }
 
 int main() {
